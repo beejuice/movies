@@ -5,7 +5,6 @@ import Filter from './Filter'
 function Movies(props) {
 
     let Films = props.films.map( film => {
-
         return (
             <div key={film.id}>
                 <NavLink to={`/film/${film.id}`}>{film.localized_name}</NavLink>

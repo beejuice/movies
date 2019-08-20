@@ -13,6 +13,7 @@ function Film(props) {
         return (
             <div className="Film">
                 <div><NavLink to="/">&larr; {filmItem.localized_name}  </NavLink></div>
+                <div><img src={filmItem.image_url} /></div>
             </div>
         );
 
