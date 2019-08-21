@@ -56,9 +56,9 @@ export const sortBy = (type)=>{
 
 };
 
-export const subscribe = (observer)=>{
+export const subscribe = (callback)=>{
 
-    renderDOM = observer;
+    renderDOM = callback;
 
 }
 

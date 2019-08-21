@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
+import Spinner from './../../img/spinner.gif'
 
 function Film(props) {
 
@@ -22,6 +23,7 @@ function Film(props) {
 
         return (
             <div className="Film">
+                <img src={Spinner} />
             </div>
         );
 

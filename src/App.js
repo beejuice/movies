@@ -5,7 +5,6 @@ import Film from './components/Movies/Film';
 
 
 function App(props) {
-
     return (
         <BrowserRouter>
             <div className="App">

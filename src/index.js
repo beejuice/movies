@@ -10,7 +10,6 @@ const renderDOM = ()=>{
 };
 
 subscribe(renderDOM);
-
 renderDOM();
 getFilms();
 
